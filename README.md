@@ -29,4 +29,4 @@ Can read contents in comma separated format (X,Y) from .TXT or .CSV file as foll
 
 ## Result/Output
 
-<img width="450" alt="Live graph plotting in action" src="https://user-images.githubusercontent.com/8515608/41542192-4a3686c6-730c-11e8-9895-2f56a91d8af2.png">
+<img width="450" alt="Live graph plotting in action" src="https://user-images.githubusercontent.com/8515608/44436637-3eb8ef80-a5ae-11e8-8b21-883aee497ef2.gif">
