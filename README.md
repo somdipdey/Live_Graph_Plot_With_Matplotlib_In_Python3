@@ -29,7 +29,7 @@ Can read contents in comma separated format (X,Y) from .TXT or .CSV file as foll
     
 #### Note:
 
-Provide my_csv_file_name.csv or my_csv_file_name.txt from the same directory/folder or else provide the full path with 'sudo' command
+Provide my_csv_file_name.csv or my_csv_file_name.txt (name of the file containing X,Y readings) from the same directory/folder or else provide the full path with 'sudo' command
 
 ## Result/Output
 
