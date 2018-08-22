@@ -1,4 +1,3 @@
-#live_plot
 #Copyright @ Somdip Dey, 2018
 
 import matplotlib.pyplot as plt
@@ -6,7 +5,9 @@ import matplotlib.animation as animation
 from matplotlib import style
 import time
 
-style.use('dark_background')
+# Style of plot
+style_name = 'dark_background'
+style.use(style_name)
 
 fig = plt.figure()
 ax1 = fig.add_subplot(1,1,1)
@@ -30,5 +31,19 @@ def animate(i):
     ax1.plot(xs, ys)
 
 if __name__ == '__main__':
-    file_name = 'ex1.txt'
-    main()
+    import sys
+    import os.path
+    args = False
+    try:
+        args = sys.argv[1]
+    except IndexError:
+        args = False
+    if(args != False):
+        file_name = str(args)
+        is_file = os.path.isfile(file_name)
+        if is_file == False:
+            print('\nError::\n\nWrong file selected! Please, check the path and file name again.\n')
+            sys.exit(1)
+        main()
+    else:
+        print('\nError::\n\nNo file selected to read X,Y for plotting!\nPlease, select a file first.\n')
