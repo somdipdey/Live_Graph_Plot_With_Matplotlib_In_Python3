@@ -2,7 +2,7 @@
 Live graph plotting with matplotlib in Python3 language.
 
 #### Build for Linux and OSX:
-[![Build Status](https://travis-ci.org/somdipdey/FaceDetection_with_HaarCascade_in_Python_OpenCV.svg?branch=master)](https://travis-ci.org/somdipdey/FaceDetection_with_HaarCascade_in_Python_OpenCV)
+[![Build Status](https://travis-ci.org/somdipdey/Live_Graph_Plot_With_Matplotlib_In_Python3.svg?branch=master)](https://travis-ci.org/somdipdey/FaceDetection_with_HaarCascade_in_Python_OpenCV)
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://github.com/somdipdey/Live_Graph_Plot_With_Matplotlib_In_Python3/blob/master/LICENSE)
 
 
